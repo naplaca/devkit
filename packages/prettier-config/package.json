@@ -2,7 +2,6 @@
   "name": "@naplaca/prettier-config",
   "version": "1.0.0",
   "description": "Prettier configuration for applications and packages",
-  "main": "./dist/index.mjs",
   "scripts": {
     "build": "tsdown --minify"
   },
@@ -20,6 +19,10 @@
   "homepage": "https://github.com/naplaca/devkit",
   "author": "Natael Bernardo <natael.bernardo@hotmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  },
   "dependencies": {
     "@naplaca/tsconfig": "^1.0.0"
   },
@@ -31,6 +34,7 @@
   "peerDependencies": {
     "prettier": "^3.6.2"
   },
+  "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "exports": {
     ".": "./dist/index.mjs",
