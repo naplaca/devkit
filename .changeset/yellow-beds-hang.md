@@ -1,5 +1,5 @@
 ---
-"@naplaca/tsconfig": major
+"@naplaca/tsconfig": minor
 ---
 
 Create Next and React typescript configuration
