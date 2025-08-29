@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "Base Typescript configuration files for applications and packages",
   "files": [
-    "tsconfig.base.json"
+    "tsconfig.base.json",
+    "tsconfig.next.json",
+    "tsconfig.react.json"
   ],
   "exports": {
-    "./tsconfig.base.json": "./tsconfig.base.json"
+    "./tsconfig.base.json": "./tsconfig.base.json",
+    "./tsconfig.next.json": "./tsconfig.next.json",
+    "./tsconfig.react.json": "./tsconfig.react.json"
   },
   "keywords": [
     "typescript",
