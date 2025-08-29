@@ -4,8 +4,8 @@
   "scripts": {
     "build": "turbo run build",
     "lint": "turbo run lint",
+    "test": "turbo run test",
     "check-types": "turbo run check-types",
-    "changeset:autogenerate": "",
     "release": "changeset version && changeset publish"
   },
   "devDependencies": {
