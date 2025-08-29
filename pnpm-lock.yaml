@@ -12,8 +12,8 @@ importers:
         specifier: ^2.29.6
         version: 2.29.6(@types/node@22.15.3)
       '@naplaca/prettier-config':
-        specifier: ^1.0.0
-        version: 1.0.0(prettier@3.6.2)
+        specifier: ^1.0.1
+        version: 1.0.1(prettier@3.6.2)
       '@svitejs/changesets-changelog-github-compact':
         specifier: ^1.2.0
         version: 1.2.0
@@ -281,6 +281,11 @@ packages:
 
   '@naplaca/prettier-config@1.0.0':
     resolution: {integrity: sha512-n7qhT71vGdJo5FoJkabUKuGNTQRn//wjZvc6K5zP/DUVch+qa09uyH7OKihTTYY6pnrzfJ2CkJsZqmbx5bdKsw==}
+    peerDependencies:
+      prettier: ^3.6.2
+
+  '@naplaca/prettier-config@1.0.1':
+    resolution: {integrity: sha512-mipfwSejF/PDQQvme1xZ6/dyYPrlF6/50BzBn74uVN8KnjGf3T1c4kEqMi7ObLuVPz4MXqMvhEVKLke4zRIm6A==}
     peerDependencies:
       prettier: ^3.6.2
 
@@ -1658,6 +1663,10 @@ snapshots:
   '@naplaca/prettier-config@1.0.0(prettier@3.6.2)':
     dependencies:
       '@naplaca/tsconfig': 1.0.0
+      prettier: 3.6.2
+
+  '@naplaca/prettier-config@1.0.1(prettier@3.6.2)':
+    dependencies:
       prettier: 3.6.2
 
   '@naplaca/tsconfig@1.0.0': {}
