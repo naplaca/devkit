@@ -3,7 +3,7 @@
   "changelog": [
     "@svitejs/changesets-changelog-github-compact",
     {
-      "repo": "naplaca/devit"
+      "repo": "naplaca/devkit"
     }
   ],
   "commit": false,
