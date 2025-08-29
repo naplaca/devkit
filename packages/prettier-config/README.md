@@ -4,7 +4,7 @@
 
 <div align="center">
   <h3>Base Prettier configuration</h3>
-  <p>Prettier configuration for applications and packages.</p>
+  <p>NaPlaca prettier configuration for applications and packages.</p>
 </div>
 
 <br />

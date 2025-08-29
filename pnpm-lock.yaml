@@ -11,6 +11,9 @@ importers:
       '@changesets/cli':
         specifier: ^2.29.6
         version: 2.29.6(@types/node@22.15.3)
+      '@naplaca/prettier-config':
+        specifier: ^1.0.0
+        version: 1.0.0(prettier@3.6.2)
       '@svitejs/changesets-changelog-github-compact':
         specifier: ^1.2.0
         version: 1.2.0
@@ -233,6 +236,11 @@ packages:
 
   '@napi-rs/wasm-runtime@1.0.3':
     resolution: {integrity: sha512-rZxtMsLwjdXkMUGC3WwsPwLNVqVqnTJT6MNIB6e+5fhMcSCPP0AOsNWuMQ5mdCq6HNjs/ZeWAEchpqeprqBD2Q==}
+
+  '@naplaca/prettier-config@1.0.0':
+    resolution: {integrity: sha512-n7qhT71vGdJo5FoJkabUKuGNTQRn//wjZvc6K5zP/DUVch+qa09uyH7OKihTTYY6pnrzfJ2CkJsZqmbx5bdKsw==}
+    peerDependencies:
+      prettier: ^3.6.2
 
   '@naplaca/tsconfig@1.0.0':
     resolution: {integrity: sha512-LOPabG+HYjUEqhGYgb5LBEIzRlkbsaOrZZFCz1TmzMj45yQgZ3MNdgcYkJVWFSFoyc5jbz6n5mAzgqIBILJ6vA==}
@@ -1491,6 +1499,11 @@ snapshots:
       '@emnapi/runtime': 1.5.0
       '@tybys/wasm-util': 0.10.0
     optional: true
+
+  '@naplaca/prettier-config@1.0.0(prettier@3.6.2)':
+    dependencies:
+      '@naplaca/tsconfig': 1.0.0
+      prettier: 3.6.2
 
   '@naplaca/tsconfig@1.0.0': {}
 
