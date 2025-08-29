@@ -28,7 +28,7 @@
   },
   "prettier": "@naplaca/prettier-config",
   "devDependencies": {
-    "@naplaca/prettier-config": "^1.0.1",
+    "@naplaca/prettier-config": "^1.0.0",
     "@naplaca/tsconfig": "^1.0.0",
     "eslint": "^9.34.0",
     "prettier": "^3.6.2",
