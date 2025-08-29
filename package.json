@@ -9,7 +9,8 @@
     "test": "turbo run test",
     "check-types": "turbo run check-types",
     "pre-commit": "lint-staged",
-    "release": "changeset version && changeset publish",
+    "ci:version": "changeset version && pnpm install --no-frozen-lockfile",
+    "ci:publish": "changeset publish",
     "prepare": "husky"
   },
   "devDependencies": {
