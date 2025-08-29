@@ -1,6 +1,6 @@
 {
   "name": "@naplaca/eslint-config",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "NaPlaca base eslint config",
   "author": "Natael Bernardo <natael.bernardo@hotmail.com>",
   "license": "MIT",
