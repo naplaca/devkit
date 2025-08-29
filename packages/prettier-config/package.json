@@ -1,19 +1,13 @@
 {
-  "name": "@naplaca/eslint-config",
+  "name": "prettier-config",
   "version": "1.0.0",
-  "description": "NaPlaca base eslint config",
-  "author": "Natael Bernardo",
-  "license": "MIT",
-  "main": "index.js",
+  "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsdown src/tsconfig --minify"
   },
   "keywords": [
-    "eslint",
-    "eslintconfig",
-    "config",
     "naplaca",
-    "styleguide"
+    "prettier"
   ],
   "repository": {
     "type": "git",
@@ -23,10 +17,14 @@
     "url": "https://github.com/naplaca/devkit/issues"
   },
   "homepage": "https://github.com/naplaca/devkit",
+  "author": "Natael Bernardo <natael.bernardo@hotmail.com>",
+  "license": "MIT",
   "devDependencies": {
-    "eslint": "^9.34.0"
+    "prettier": "^3.6.2",
+    "tsdown": "^0.14.2",
+    "typescript": "5.9.2"
   },
   "peerDependencies": {
-    "eslint": "9.34.0"
+    "prettier": "^3.6.2"
   }
 }

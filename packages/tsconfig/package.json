@@ -1,0 +1,32 @@
+{
+  "name": "@naplaca/tsconfig",
+  "version": "1.0.0",
+  "description": "Base Typescript configuration files for applications and packages",
+  "files": [
+    "tsconfig.base.json"
+  ],
+  "exports": {
+    "./tsconfig.base.json": "./tsconfig.base.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "naplaca"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naplaca/devkit"
+  },
+  "bugs": {
+    "url": "https://github.com/naplaca/devkit/issues"
+  },
+  "author": "Natael Bernardo <natael.bernardo@hotmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  }
+}
