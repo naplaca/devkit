@@ -8,9 +8,6 @@
   "exports": {
     "./tsconfig.base.json": "./tsconfig.base.json"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "typescript",
     "tsconfig",
